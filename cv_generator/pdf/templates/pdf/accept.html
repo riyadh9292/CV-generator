@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+
+
+
+
+    <form method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" id="name" name="name" class="form-control" aria-describedby="emailHelp" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="">Email</label>
+        <input type="text" id="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter Your Email">
+      </div>
+      <div class="form-group">
+        <label for="">Phone</label>
+        <input type="text" id="phone" name="phone" class="form-control" aria-describedby="emailHelp" placeholder="Enter Your Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="">About yourself</label>
+        <textarea type="text" id="summary" name="summary" class="form-control" aria-describedby="emailHelp" placeholder="Describe yourself in short"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="">Degree</label>
+        <input type="text" id="degree" name="degree" class="form-control" aria-describedby="emailHelp" placeholder="Enter Your Degree Here">
+      </div>
+      <div class="form-group">
+        <label for="">School</label>
+        <input type="text" id="school" name="school" class="form-control" aria-describedby="emailHelp" placeholder="Enter Your School Name">
+      </div>
+      <div class="form-group">
+        <label for="">University</label>
+        <input type="text" id="university" name="university" class="form-control" aria-describedby="emailHelp" placeholder="Your University">
+      </div>
+      <div class="form-group">
+        <label for="">Previous Experience</label>
+        <textarea type="text" id="previous_work" name="previous_work" class="form-control" aria-describedby="emailHelp" placeholder="Pervious Working Experience in a nutshell"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="">Skills</label>
+        <textarea type="text" id="skills" name="skills" class="form-control" aria-describedby="emailHelp" placeholder="Skills you have"></textarea>
+      </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+  </div>
+
+</div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</html>
